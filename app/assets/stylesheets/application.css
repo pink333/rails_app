@@ -14,3 +14,51 @@
  *= require_self
  */
 @import 'normalize';
+body{
+  font-size: 1.4rem; 
+  width: 100%;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+li{
+list-style-type:none;
+}
+#sidebar{
+ float: left;
+  text-align: left;
+  width:280px;
+  background-color: lightskyblue;
+  height: 1500px;
+}
+#sidebar li{
+  line-height: 50px;
+}
+#main_content{
+ 
+}
+header{
+  display: flex;
+  background-color: lightpink;
+}
+.header_title{
+  margin: 0px 20px;
+}
+.header_button{
+  display: flex;
+  margin: 20px 20px 20px 1200px;;
+}
+.post_wrapper{
+  
+}
+.post_box{
+  float: left;
+  background-color: moccasin;
+  width:300px;
+  height: 250px;
+  box-shadow: 2px 2px 4px gray; 
+ padding: 20px;
+ margin:15px;
+}
+
